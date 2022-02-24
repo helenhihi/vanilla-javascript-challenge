@@ -101,7 +101,7 @@ header {
   background-color: rgba(145, 118, 207, 0.671);
 }
 
-.today-todo .label {
+.today-todo .today-label {
   margin-bottom: 15px;
   display: flex;
   justify-content: center;
