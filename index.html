@@ -10,35 +10,35 @@
 </head>
 
 <body>
-  <header>
-    <div class="today-data">
+  <div class="top-row">
+    <article class="today-data">
       <h2 id="calendar"></h2>
       <h3 id="clock">00:00:00</h3>
-    </div>
-    <div class="login">
+    </article>
+    <article class="login">
       <form class="hidden" id="login-form">
         <input type="text" placeholder="What is your name?" required maxlength="15" />
         <input type="submit" value="Log In" />
       </form>
       <h1 class="hidden" id="greeting"></h1>
-    </div>
-  </header>
+    </article>
+  </div>
 
-  <div class="today-todo">
-    <div class="today-label">
-      <span>TODAY</span>
-    </div>
+  <article class="today-todo">
+    <header class="today-label">
+      <h2>TODAY</h2>
+    </header>
     <form id="todo-form">
       <input type="text" placeholder="Write a To Do and Press Enter." reauired />
     </form>
     <ul id="todo-list"></ul>
-  </div>
+  </article>
 
-  <div id="quote">
+  <article id="quote">
     <span></span>
     <br />
     <span></span>
-  </div>
+  </article>
 
   <script src="js/greetings.js"></script>
   <script src="js/calendar.js"></script>
